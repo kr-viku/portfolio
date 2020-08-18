@@ -18,7 +18,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Software Engineer.", "Web Developer.", "Student At University Institute Of Technology, Burdwan."],
+		strings: ["4⭐Coder on Codechef.","Software Engineer.", "MERN Stack Developer.", "Student At University Institute Of Technology, Burdwan."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
