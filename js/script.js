@@ -18,7 +18,7 @@ $(document).ready(function() {
 	});
 
 	var typed = new Typed(".typed", {
-		strings: ["Associate Software Engineer at TrakInvest.","4⭐Coder at Codechef.","Graduated from University Institute Of Technology, Burdwan."],
+		strings: ["Associate Software Engineer at TrakInvest.","4⭐Coder at Codechef.","Graduated from UIT, Burdwan."],
 		typeSpeed: 70,
 		loop: true,
 		startDelay: 1000,
