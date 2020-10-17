@@ -323,11 +323,38 @@
 
 			<p class="subHeading">Like what you see?</p>
 			<h2>I'd like to hear from you!</h2>
-			<a href="mailTo:er.vikashs4@gmail.com" class="contactButton">GET IN TOUCH!</a>
-
+			<a href="mailTo:er.vikashs4@gmail.com" class="contactButton" data-toggle="modal" data-target="#exampleModal">GET IN TOUCH!</a>
 		</div>
 
 	</div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog" role="document">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <small class="form-text"> I'd like to hear from you. Please fill your details below.<br> I'll never share your email with anyone else.</small>
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+			<span aria-hidden="true">&times;</span>
+		  </button>
+		</div>
+		<div class="modal-body text-center">
+			<form action="https://formspree.io/f/mnqopyoj" method="POST" id="form">
+				<div class="form-group">
+					<input type="text" class="form-control" id="name" aria-describedby="emailHelp" name="name" placeholder="Your Name" required>
+				  </div>
+				<div class="form-group">
+				  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="_replyto" placeholder="Your Email" required>
+				</div>
+				<div class="form-group">
+				  <textarea class="form-control" id="meassage" placeholder="Your Message" name="message" required></textarea>
+				</div>
+				<button type="submit" class="btn btn-outline-danger">Send</button>
+			  </form>
+		</div>
+	  </div>
+	</div>
+  </div>
+
 
 
 

@@ -158,10 +158,14 @@ $(document).ready(function() {
 });
 
 
+// var form = document.getElementById("form")
 
-
-
-
+// form.addEventListener("submit", e => {
+// 	e.preventDefault();
+// 	// timer = setInterval(() => {
+// 	// 	window.location.href="index.html"
+// 	// },10000)
+// })
 
 
 
