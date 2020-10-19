@@ -525,3 +525,7 @@ body {
   text-align: center;
   border-radius: 5px;
 }
+
+.hr-line {
+  border: 1px solid whitesmoke;
+}
