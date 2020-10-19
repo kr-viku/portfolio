@@ -457,6 +457,10 @@ body {
   width: 100%;
 }
 
+.smallDisplay {
+  display: none;
+}
+
 @media only screen and (max-width: 600px) {
   .section {
     padding: 30px 0;
@@ -479,6 +483,14 @@ body {
   .resumestyle i {
     font-size: 1rem;
     color: whitesmoke;
+  }
+
+  .smallDisplay {
+    display: block;
+  }
+
+  .bigDisplay {
+    display: none;
   }
 }
 
