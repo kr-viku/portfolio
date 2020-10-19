@@ -485,6 +485,10 @@ body {
     color: whitesmoke;
   }
 
+  .iframestyle iframe {
+    height: 370px !important;
+  }
+
   .smallDisplay {
     display: block;
   }
