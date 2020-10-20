@@ -731,7 +731,69 @@
 	<script src="js/jquery.fancybox.min.js"></script>
 	<script src="js/script.js"></script>
 	<script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-	
+	<script src="https://formspree.io/js/formbutton-v1.0.0.min.js" defer></script>
+
+<script>
+  /* paste this in verbatim */
+  window.formbutton=window.formbutton||function(){(formbutton.q=formbutton.q||[]).push(arguments);};
+
+  /* customize formbutton here*/     
+  formbutton("create", {
+	theme: "classic",
+    action: "https://formspree.io/f/mnqopyoj",
+    title: "👋 Let's Connect!",
+	description: "I'll never share your email with anyone else.",
+    fields: [
+	{ 
+        type: "text", 
+        label: "Name:", 
+        name: "name",
+        required: true,
+        placeholder: "your name"
+      },
+      { 
+        type: "email", 
+        label: "Email:", 
+        name: "email",
+        required: true,
+        placeholder: "your@gmail.com"
+      },
+	  { 
+        type: "text", 
+        label: "Url:", 
+        name: "url",
+        required: true,
+        placeholder: "LinkedIn, twitter, fb, insta any url"
+      },
+	  { 
+        type: "text", 
+        label: "Mobile:", 
+        name: "phone",
+        required: true,
+        placeholder: "your mobile number"
+      },
+      {
+        type: "textarea",
+        label: "Message:",
+        name: "message",
+        placeholder: "What's on your mind?",
+      },
+      { type: "submit" }      
+    ],
+    styles: {
+      fontFamily:'"Lato", sans-serif',
+      button: {
+        background: "#e74c3c"
+      },
+      title: {
+        background: "black",
+        letterSpacing: "0.05em",
+        textTransform: "uppercase"
+      }
+    },
+    initiallyVisible: true
+  });
+</script>
 
 </body>
 
